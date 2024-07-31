@@ -1,0 +1,21 @@
+{
+  "name": "zap-shoes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/ui": "^2.17.0",
+    "nuxt": "^3.12.4"
+  },
+  "dependencies": {
+    "firebase": "^10.12.4",
+    "zod": "^3.23.8"
+  }
+}
